@@ -1,0 +1,28 @@
+p {
+    background-color: aquamarine;
+}
+
+#p2 {
+    background-color: yellow;
+    font-weight: bold;
+}
+#p2 {
+    font-style: italic;
+}
+h2 {
+    background-color: bisque;
+}
+
+.box1 {
+    border: 3px solid black;
+}
+
+.big {
+    font-size: 55px;
+}
+.small {
+    font-size: 12px;
+}
+* {
+    text-align: center;
+}
