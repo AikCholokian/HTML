@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+}
+.header, .footer{
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.header{
+    /*z-index: 10;*/
+    background-color: violet;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: darkgreen;
+}
+.main{
+    background-color: crimson;
+    height: 1200px;
+    position: relative;
+}
+
+.main > div{
+    height: 100px;
+    width: 60%;
+    /*display: inline;*/
+    display: inline-block;
+    font-size: xx-large;
+}
+.div1{
+    /*position: fixed;*/
+    /*position: relative;*/
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    background-color: yellow;
+    z-index: 100;
+}
+.div2{
+    /*margin-right: -5px;*/
+    /*margin-left: -5px;*/
+    background-color: blue;
+    position: relative;
+    z-index: 200;
+}
+.div3{
+    background-color: green;
+    position: relative;
+    z-index: 100;
+}
