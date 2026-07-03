@@ -1,0 +1,69 @@
+.main{
+    height: 400px;
+    width: 800px;
+    background-color: bisque;
+    position: relative;
+    margin: auto;
+}
+.ring{
+    position: absolute;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+}
+.div1{
+    border: 5px solid blue;
+    left: 140px;
+    top: 50px;
+    z-index: 1;
+}
+.div2{
+    border: 5px solid black;
+    left: 300px;
+    top: 50px;
+    z-index: 1;
+}
+.div3{
+    border: 5px solid red;
+    left: 460px;
+    top: 50px;
+    z-index: 1;
+}
+.div4{
+    border: 5px solid yellow;
+    left: 220px;
+    top: 150px;
+    z-index: 2;
+}
+.div5{
+    border: 5px solid green;
+    left: 380px;
+    top: 150px;
+    z-index: 2;
+}
+.div6{
+    left: 140px; top: 50px;
+    z-index: 10;
+    border: 5px solid transparent;
+    border-right-color: blue;
+}
+.div7{
+    left: 300px; top: 50px; z-index: 10;
+    border: 5px solid transparent;
+    border-bottom-color: black;
+}
+.div8{
+    left: 300px; top: 50px; z-index: 10;
+    border: 5px solid transparent;
+    border-right-color: black;
+}
+.div9{
+    left: 460px; top: 50px; z-index: 10;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+}
+.div10{
+    left: 380px; top: 150px; z-index: 10;
+    border: 5px solid transparent;
+    border-left-color: green;
+}
