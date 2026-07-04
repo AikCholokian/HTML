@@ -1,0 +1,46 @@
+.main{
+    height: 640px;
+    width: 640px;
+    background-color: transparent;
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+}
+.square1{
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    background-color: black;
+}
+.left{
+    background-color: bisque;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 80px;
+}
+.rigth{
+    position: absolute;
+    left: 80px;
+    background-color: bisque;
+    height: 80px;
+    width: 80px;
+}
+.position1{
+    left: 160px;
+}
+.position2{
+    left: 320px;
+}
+.position3{
+    left: 480px;
+}
+.top1{
+    top: 160px;
+}
+.top2{
+    top: 320px;
+}
+.top3{
+    top: 480px;
+}
