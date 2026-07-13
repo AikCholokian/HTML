@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleForm.css">
+    <title>Form</title>
+</head>
+<body>
+<form action="#" method="get">
+    <fieldset id="fieldset">
+        <legend>Personal Information</legend>
+        <p>
+            <label for="first_name">First Name*</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Peter" required>
+        </p>
+        <p>
+            <label>Last Name
+                <input type="text" name="last_name" id="last_name" placeholder="Smith">
+            </label>
+        </p>
+        <fieldset id="fieldset2">
+            <legend>Contacts</legend>
+            <p>
+                <label for="email">Email Address*</label>
+                <input type="email" name="email" placeholder="qqq@gmail.com" id="email" required>
+            </p>
+            <p>
+                <label for="phone">Telephone*</label>
+                <input type="tel" name="phone" placeholder="1237812" id="phone" required>
+            </p>
+            <p>
+                <label for="number">Number*</label>
+                <input type="number" name="number" placeholder="123" id="number" min="5" max="25"
+                       step="3" required>
+            </p>
+        </fieldset>
+        <p>
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" required>
+        </p>
+        <p>
+            <label>Male</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Female</label>
+            <input type="radio" name="gender" value="female" id="female">
+        </p>
+        <p>
+            <label>Hobby:
+                <input type="checkbox" name="reading">
+                Reading
+            </label>
+            <label>
+                <input type="checkbox" name="travelling">
+                Travelling
+            </label>
+            <label>
+                <input type="checkbox" name="Gaming">
+                Gaming
+            </label>
+        </p>
+        <p>
+            <label>Language:
+                <select name="language" id="language">
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="arabic">Hebrew</option>
+
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Date of Birth:</label>
+            <input type="date" name="date_of_birth" id="date_of_birth">
+        </p>
+        <p>
+            <label>Comment:
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10" maxlength="250"
+                          minlength="10" required></textarea>
+            </label>
+        </p>
+    </fieldset>
+    <button type="submit">Send</button>
+    <button type="reset">Reset</button>
+    <button type="button">Next</button>
+    <button type="button">Prev</button>
+    <button type="button" ONCLICK="alert('Alarm-Alarm!!!')">Alert</button>
+</form>
+</body>
+</html>
