@@ -6,7 +6,7 @@ body {
 }
 div{
     border-radius: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .header, .footer{
     height: 50px;
