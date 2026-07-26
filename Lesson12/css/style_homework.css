@@ -17,4 +17,5 @@ div{
     font-size: large;
     color: whitesmoke;
     text-shadow: 0.3em 0.3em 0.3em rgb(0, 0, 0);
+    height: 48px;
 }
